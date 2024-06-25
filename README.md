@@ -3,16 +3,24 @@
 **Wood1:**
 
 ```
-Since all the 4 minigames were hurdles the entire game state could fit in dp[30][30][30][30][3][3][3][3] as the number of position of hurdle is 0-29 and stun duration is 0-3 and each state has exactly 1 answer i.e. the move that leads to optimal solution. I never make DOWN movement as it does the same thing as jumping. As the number of states was too high I shrunk the number of states by starting my initial position in every turn as 0 ignoring the positions I already crossed and looking only at a depth of 5. This means at every turn I only have 4 mini games of hurdles that have a maximum length of 5 in each mini game. At a depth of 5 the no. of states required just looks like dp[15][15][15][15][3][3][3][3]. As there are multiple paths to reach a particular state we also need to know how many turns we have taken before to reach a particular state. As I'm looking at a depth of 5 my dp state looks like dp[15][15][15][15][3][3][3][3][5].
+Since all the 4 minigames were hurdles the entire game state could fit in dp[30][30][30][30][3][3][3][3]
+As the number of position of hurdle is 0-29 and stun duration is 0-3 and each state has exactly 1 best move
+I never make DOWN movement as it does the same thing as jumping.
+As the number of states was too high, I reduced the number of states by starting my initial position in every turn as 0 ignoring the positions I already crossed and looking only at a depth of 5.
+In other words I only care about the 4 mini games of hurdles and each mini game have a maximum length of 5.
+At a depth of 5 the no. of states required just looks like dp[15][15][15][15][3][3][3][3].
+As there are multiple paths to reach a particular state we also need to know how many turns we have taken before to reach a particular state.
+As I'm looking at a depth of 5 my dp state looks like dp[15][15][15][15][3][3][3][3][5].
 ```
 
 **Bronze and Silver:**
 ```
-I initially regretted the decision of using DP as soon as I reached Bronze as the game state was a bit too much with 4 different games.. Then I somehow managed to fit my DP for 3 games ignoring skating (as skating only requires 1 depth simulation).. my dp state looked like dp[12][3][41][41][11][5][4][4].
+After a lot of rewrite, I somehow managed to fit my DP for 3 games ignoring skating (as skating only requires 1 depth simulation)..
+My dp state looked like dp[12][3][41][41][11][5][4][4].
 [12][3] is for hurdles at depth 4
 [41][41] is for the archery
 [11][5][4] is for the diving.. At depth 4 we can have a maximum points of 1+2+3+4 = 10 starting at 0.. And maximum combo starting at 0 would be 4. The last 4 to know which turn I first chose to skip diving.. I need this to add the initial combo till this point.. I used these 3 dimentions instead of 2 dimensions to save storage space.. 
-the last dimension is for the depth of 4
+The last dimension is for the depth of 4
 ```
 **Gold:**
 
