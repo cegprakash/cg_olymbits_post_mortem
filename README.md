@@ -84,6 +84,8 @@ I believe an accurate simulation of at least depth 15 is needed to reach Legend 
 4) I could have created a Score class with all my tie breakers and sorted the scores..
 I could have scaled with more tie breakers making it easy to make decisions between two different game states.
 Instead I combined all my scores with c1 x factor1 + c2 x factor2 + c3 x factor3 where c1 > c2 > c3 which may not have been perfect.
+
+5) I didn't even have a gamestate class.. I just had a bunch of variables everywhere..
 ```
 
 ****Feedbacks:****
