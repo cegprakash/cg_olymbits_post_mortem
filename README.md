@@ -62,6 +62,7 @@ I choose the above same behavior for my opponent in skating.
 This is except the first and last turns where it's super ideal to take a lot of risk.
 Taking a lot of risk on first turn actually helps in getting ourselves stunned and focus on other mini games more.
 Additionally getting stunned also this blocks a location to be unusable by others.
+Jokes ahead. I only take a lot of risk on the first turn only if I don't get stunned (i.e. my currrent risk is < 3).
 ```
 
 ****What went wrong:****
