@@ -44,7 +44,6 @@ This way regardless of which minigames opponent chooses to play his best I would
 ****Evaluation****
 
 ```
-
 I computed gamePoints[p][g] = goldWins[p][g] x 3 + silverWins[p][g] where p is player and g is game..
 I added a score of 1000000000 * product of gamePoints[player_idx][g] + 2..
 This automatically prioritizes the game I have good chance of winning gold first as well as increase my overall score by choosing a game that I have less medals already.
