@@ -39,7 +39,7 @@ Then I fought back with a better opponent prediction and evaluation which looks 
 I gave super powers to both the opponents. The super power being my opponents able to play different moves in each mini game.
 So I choose the best move for each opponent in each game using a DP to solve Hurdles and another DP to solve Archery.
 Perfect play for diving is easy to calculate with a formula.
-This way, regardless of which minigames opponent chooses to play his best I would be able to win a decent number of medals with the remaining available options.```
+This way, regardless of which minigames opponent chooses to play his best I would be able to win a decent number of medals with the remaining available options.
 ```
 ****Evaluation****
 
