@@ -74,9 +74,12 @@ I tried giving 1 less depth on all games for my opponents to play a little more 
 That helped in keeping opponents in check and capitalize on games they make mistakes..
 This helped in climbing the ladder faster but ranks stopped climbing at the higher stage of the ladder.
 
-2) THE SKATING: I didn't simulate the addition of risk factor for two players in same position in skating. This is because the opponents are super unpredictable in skating. I could have solved this if I had simulated all combination of moves for opponent at least on the first turn as it's impossible to predict the future collisions.
+2) THE SKATING: I didn't simulate the addition of risk factor for two players in same position in skating.
+This is because the opponents are super unpredictable in skating.
+I could have solved this if I had simulated all combination of moves for opponent at least on the first turn as it's impossible to predict the future collisions.
 
-3) Lack of depth => 8 depth is very low considering mini games are 15 depth long.. I believe an accurate simulation of at least depth 15 is needed to reach Legend and I couldn't find an effective way to prune my paths..
+3) Lack of depth => 8 depth is very low considering mini games are 15 depth long.
+I believe an accurate simulation of at least depth 15 is needed to reach Legend and I couldn't find an effective way to prune my paths.
 ```
 
 ****Feedbacks:****
