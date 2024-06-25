@@ -79,6 +79,10 @@ I could have solved this if I had simulated all combination of moves for opponen
 
 3) Lack of depth => 8 depth is very low considering mini games are 15 depth long.
 I believe an accurate simulation of at least depth 15 is needed to reach Legend and I couldn't find an effective way to prune my paths.
+
+4) I could have created a Score class with all my tie breakers and sorted the scores..
+I could have scaled with more tie breakers making it easy to make decisions between two different game states.
+Instead I added a score with 3 constant multipliers which may have impacted my rank a bit..
 ```
 
 ****Feedbacks:****
