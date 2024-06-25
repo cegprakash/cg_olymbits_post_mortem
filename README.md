@@ -88,15 +88,3 @@ Instead I combined all my scores with c1 x factor1 + c2 x factor2 + c3 x factor3
 5) I didn't even have a gamestate class.. I just had a bunch of variables everywhere..
 ```
 
-****Feedbacks:****
-
-```
-* The olympics theme was super fun
-* More minigames like Running, Javelin throw, Triple jump etc. would have been fun especially because it was super easy to simulate the games..
-* In the minigame input if we had MINI_GAME_TYPE before each mini game data would have been even more fun with random games spawning at random locations..
-* Captchas and IDE testing limit was super annoying provided that there is no officially supported tool for local testing
-* It was super cool just having the need to beat the boss in wood leagues
-* Contest duration of 14 days was perfect.. I was able to implement all my ideas in the contest till I ran out off ideas.
-* Fiverr gigs looks amazing!!
-* Can we have Tshirts for top 103 ranks instead of top 10 please.. 
-```
