@@ -1,5 +1,3 @@
-# cg_olymbits_post_mortem
-
 **Finished #103 Global**
 
 **Wood1:**
