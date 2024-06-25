@@ -2,7 +2,9 @@
 
 **Wood1:**
 
-```Since all the 4 minigames were hurdles the entire game state could fit in dp[30][30][30][30][3][3][3][3] as the number of position of hurdle is 0-29 and stun duration is 0-3 and each state has exactly 1 answer i.e. the move that leads to optimal solution. I never make DOWN movement as it does the same thing as jumping. As the number of states was too high I shrunk the number of states by starting my initial position in every turn as 0 ignoring the positions I already crossed and looking only at a depth of 5. This means at every turn I only have 4 mini games of hurdles that have a maximum length of 5 in each mini game. At a depth of 5 the no. of states required just looks like dp[15][15][15][15][3][3][3][3]. As there are multiple paths to reach a particular state we also need to know how many turns we have taken before to reach a particular state. As I'm looking at a depth of 5 my dp state looks like dp[15][15][15][15][3][3][3][3][5].```
+```
+Since all the 4 minigames were hurdles the entire game state could fit in dp[30][30][30][30][3][3][3][3] as the number of position of hurdle is 0-29 and stun duration is 0-3 and each state has exactly 1 answer i.e. the move that leads to optimal solution. I never make DOWN movement as it does the same thing as jumping. As the number of states was too high I shrunk the number of states by starting my initial position in every turn as 0 ignoring the positions I already crossed and looking only at a depth of 5. This means at every turn I only have 4 mini games of hurdles that have a maximum length of 5 in each mini game. At a depth of 5 the no. of states required just looks like dp[15][15][15][15][3][3][3][3]. As there are multiple paths to reach a particular state we also need to know how many turns we have taken before to reach a particular state. As I'm looking at a depth of 5 my dp state looks like dp[15][15][15][15][3][3][3][3][5].
+```
 
 **Bronze and Silver:**
 ```
